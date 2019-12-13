@@ -1,0 +1,312 @@
+.dev{
+    border: 1px black solid;
+}
+
+body{
+    margin: 0vw;
+    font-size: 5vw;    
+}
+
+#headPromo {
+    font-size: 7vw;
+    margin-top:10vw;
+}
+
+h3 {
+    margin: 2vw;
+    font-size: 4vw;   
+}
+
+#banner-logo {
+    position: absolute;
+    width: 25vw;
+    height: 10vw;
+    margin: 1vw;
+    left: 0;
+}
+
+.promo-button{
+    background-color: #FC3899;
+    width:50vw;
+    height: 7.5vw;
+    border-radius: 44px;
+    margin: 0.5vw;
+    font-size: 2.5vw;
+}
+
+#bannerFooter{
+    height:6vw;
+    display: none;
+}
+
+#bannerFooter > img{
+    position: absolute;
+    left: 0;
+    width: 25vw;
+    height: 6vw;
+}
+#bannerFooter > p{
+    position: absolute;
+    left: 26vw;
+    font-size: 2vw;
+   
+}
+
+
+.flex {
+    display: flex;
+    padding: 0.2vw;
+    margin: 0.2vw;
+}
+.height-auto{
+    height:auto !important;
+
+}
+.relative{
+    position: relative  !important;
+    
+}
+.center{
+    text-align: center;
+}
+.banner {
+    background-image: url(https://via.placeholder.com/150);
+  }
+
+  
+
+.item-wrapper{
+    height:20vw;
+    width:28.5vw;
+    position: relative;
+    margin:1.5vw;
+    font-size: 2.5vw;
+} 
+
+.item-text-wrapper{
+    
+    position: absolute;
+    left: 15vw;
+    width: 13.5;
+    height:20vw;
+    margin: 0.1vw;
+}
+
+.item-wrapper-image{
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 0;
+}
+
+.play{
+    position: absolute;
+    width: 12vw;
+    height:3vw;
+    left:0.2vw;
+
+    font-size: 2vw;
+    bottom: 0.2vw;
+}
+.ul-wrapper{
+    padding: 0;
+    margin:0.2vw;
+}
+.blue{
+    background-color: 	#236AB2; 
+    
+}
+
+ul >li {
+    display: inline-block;
+    list-style-type:none;
+}
+h5,p{
+    margin: 1vw;
+}
+
+.iframe{
+    width: 80vw;
+    margin: 10vw;
+    margin-top: 3vw;
+}
+
+
+
+    .banner {
+      height:100vw;
+      position: relative;
+    }
+    .banner-promo{
+        
+        text-align: center;
+        height: 35vw;
+        width: 99.5vw ;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .banner-promo > button{
+        display: block;
+        margin: auto;
+        font-size: 2.5vw;
+    }
+
+    .promo-list-head{
+        text-align: center;
+    }
+
+    .promo-list-li{
+        height:75vw;
+        width: -webkit-fill-available;
+        margin: 0;
+        padding-right: 5vw;
+    }
+
+    
+
+    .promo-list-li > li{
+        font-size: 3.5vw;
+        margin: 3vw;
+        list-style-image: url('https://aud-from-twisted.s3-us-west-2.amazonaws.com/6X6.png');    
+    }
+    
+    
+
+    .promo-list-li-img{
+        width:70vw;
+        height: 75vw; 
+    }
+
+    @media screen and (min-width: 700px) {
+        #headWrapper{
+            margin-top: 12vw;
+            margin-left: 10vw;    
+        }
+        
+        #bannerFooter{
+            display: initial;
+        }
+
+        #headPromo {
+            font-size: 3vw;         
+        }
+        
+        .banner {
+            height:40vw;
+            
+          }
+          .banner-promo {
+            
+            height: 39.9vw;
+            width: 50vw;
+            right: 0;
+            top:0;
+      }
+      .promo-button {
+        font-size: 1.2vw;
+        width: 23vw;
+        height: 5vw;
+        border-radius: 22px;
+    }
+
+    .promo-list-desktop{
+        margin-top: 1vw;
+        position: relative;
+        height: 40vw;
+    }
+    .promo-list-head {
+        font-size: 2.5vw;
+        width: 60vw;
+        margin: auto;
+        padding-top: 3vw;
+        position: absolute;
+        left:0;
+        height: 15vw;
+    }
+    .promo-list-li-img {
+        width: 40vw;
+        height: 40vw;
+        position: absolute;
+        left:60vw;
+    }
+
+    .promo-list-li {
+        margin: 0vw;
+        padding: 0vw;
+        width: 60vw;
+        height: 25vw;
+        position: absolute;
+        left:0vw;
+        top:15vw;
+    }
+    .relative{
+        width: 100vw;
+        height:25vw;
+    }
+    
+    .banner-promo > button{
+        display: inline;
+        margin: 1vw;
+        font-size: 1.2vw;
+    }
+    .item-wrapper {
+        height: 10vw;
+        width: 8vw;
+        position: relative;
+        margin: 1.3vw;
+    }
+
+    .item-wrapper-image {
+        width: 4vw;
+        height: 10vw;
+    }
+    .item-text-wrapper{
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        left: 4vw;
+        width:4vw;
+        height:10vw;
+        margin: 0.1vw;
+    }
+    h5,p{
+        font-size: small;
+        margin: 0.1vw;
+        text-align: left;
+    }
+
+    .play{
+        padding: 0;
+        width: 3vw;
+        left:0;
+        font-size: 0.6vw;
+        bottom: 0.2vw;
+    }
+
+    .ul-wrapper {
+        padding: 0;
+         margin-top: 3vw;
+    }
+    
+    .iframe{   
+        height: 50vw;
+    }
+    
+    .promo-list-li > li{
+        
+        margin: 0.3vw;
+        margin-right: 10vw;
+        display: inline-flex;
+        font-size: 2vw;
+        position: relative;
+    }
+    
+    .promo-list-li  > li:before {
+        background: transparent url("https://aud-from-twisted.s3-us-west-2.amazonaws.com/12X12.png") scroll 0 0 no-repeat;
+        content:"";
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right:-3vw;
+    }
+}
