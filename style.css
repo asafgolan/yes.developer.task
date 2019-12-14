@@ -1,5 +1,4 @@
 :root {
-    --main-bg-color: coral;
     --banner-logo-desktop-width: 50vw;
     --banner-logo-desktop-height:35vw;
     --banner-logo-mobile-width:99.9vw;
@@ -154,8 +153,6 @@ h5,p{
     height:50vw;
     margin-right: 10vw;
     margin-top: 4vw;
-
-    
 }
 
 .banner-promo{   
@@ -268,10 +265,8 @@ h5,p{
     }
 
     .promo-list-li > li{
-         
         margin:1vw;
         margin-bottom:1.5vw;
-       
         font-size: 1.6vw;
           
     }
@@ -309,15 +304,13 @@ h5,p{
         text-align: center;
     }
 
-    .center-head{
-        
+    .center-head{  
         font-size: 4vw;
     }
 
     h5,p{
         font-size: x-small;
-        margin: 0.1vw;
-        
+        margin: 0.1vw;   
     }
 
     .play{
