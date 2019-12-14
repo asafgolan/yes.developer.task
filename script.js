@@ -5,6 +5,7 @@ var itemsLength = 0;
 
 
 
+
 function lists(){
     //the event occurred
     var h1 = document.getElementById("headPromo");
@@ -21,7 +22,7 @@ function lists(){
         deskList.style.display = "none";
         itemsLength = 6
         
-    }else{
+    }else if(window.innerWidth > 700){ 
         h1.innerHTML =" 2 ספרים דיגיטליים <br>כל חודש"
         console.log("big");
         itemsLength = movies.length;
@@ -96,6 +97,8 @@ function SVGgenerator(){
 
 
 window.addEventListener('DOMContentLoaded', SVGgenerator);
-  window.addEventListener('DOMContentLoaded', lists);
-  window.addEventListener('resize', lists);
-  window.addEventListener('resize', SVGgenerator);
+window.addEventListener('DOMContentLoaded', lists);
+window.addEventListener('resize', lists);
+window.addEventListener('resize', SVGgenerator);
+window.addEventListener("orientationchange", SVGgenerator);
+window.addEventListener("orientationchange", lists);
