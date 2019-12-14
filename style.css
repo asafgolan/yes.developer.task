@@ -1,13 +1,3 @@
-:root {
-    --banner-logo-desktop-width: 50vw;
-    --banner-logo-desktop-height:35vw;
-    --banner-logo-mobile-width:99.9vw;
-    --banner-logo-mobile-height:39.5vw; 
-    --item-wrapper-width-desktop:9vw;
-    --item-wrapper-height-desktop:12vw;
-    --item-wrapper-width-mobile:24.5vw;
-    --item-wrapper-height-mobile:26vw;
-  }
 
 body{
     margin: 0vw;
@@ -96,8 +86,8 @@ body{
 
 .item-wrapper{
     border: 1px solid black;
-    height:var(--item-wrapper-height-mobile);
-    width:var(--item-wrapper-width-mobile);
+    height:26vw;
+    width:24.5vw;
     position: relative;
     margin:1.5vw;
     font-size: 2.5vw;
@@ -106,16 +96,16 @@ body{
 .item-text-wrapper{  
     
     position: absolute;
-    left: calc(var(--item-wrapper-width-mobile)/2);
-    width: calc(var(--item-wrapper-width-mobile)/2);
-    height:var(--item-wrapper-height-mobile);
+    left: 12.25vw;
+    width: 12.25vw;
+    height:26vw;
     margin: 0.1vw;
     text-align: left;
 }
 
 .item-wrapper-image{
-    width: calc(var(--item-wrapper-width-mobile)/2);;
-    height: var(--item-wrapper-height-mobile);
+    width: 12.25vw;
+    height: 26vw;
     position: absolute;
     left: 0;
 }
@@ -157,8 +147,8 @@ h5,p{
 
 .banner-promo{   
     text-align: center;
-    height: var(--banner-logo-mobile-height);
-    width: var(--banner-logo-mobile-width);
+    height:39.5vw;
+    width: 99.9vw;
     position: absolute;
     bottom: 0;
 }
@@ -214,8 +204,8 @@ h5,p{
     }
 
     .banner-promo {       
-        height: var(--banner-logo-desktop-height);
-        width: var(--banner-logo-desktop-width);
+        height: 35vw;
+        width: 50vw;
         right: 0;
         top:0;
     }
@@ -277,24 +267,24 @@ h5,p{
     }
 
     .item-wrapper {
-        height: var(--item-wrapper-height-desktop);
-        width: var(--item-wrapper-width-desktop);
+        height: 12vw;
+        width: 9vw;
         position: relative;
         margin: 0.5vw;
         margin-top:1.5vw;
     }
 
     .item-wrapper-image {
-        width: calc(var(--item-wrapper-width-desktop)/2);
-        height: var(--item-wrapper-height-desktop);
+        width: 4.5vw;
+        height: 12vw;
     }
 
     .item-text-wrapper{
         overflow-wrap: break-word;
         word-wrap: break-word;
-        left: calc(var(--item-wrapper-width-desktop)/2);
-        width:calc(var(--item-wrapper-width-desktop)/2);
-        height:var(--item-wrapper-height-desktop);
+        left: 4.5vw;
+        width:4.5vw;
+        height:12vw;
         margin: 0.1vw;
     }
 
